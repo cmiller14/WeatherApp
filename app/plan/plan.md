@@ -54,8 +54,25 @@ search through the app everytime for the weather
 ## Design
 
 ### UI design
+* all of the different fragments will need to have a recycler view in them for the lists that will need to
+be displayed
+* Main activity will just have a fragment container which will then switch fragments depending on what action 
+the user takes
+* The app will need some buttons for searching and adding different areas to the list of areas that will have
+weather info displayed
+* 
 
 ### backend design
 
 * I should be able to use model view view model or keep everything organized that way
-* This means that
+* This means that:
+  * all the ui elements will be in the view
+  * all the data will be stored in the model 
+  * all the communication between the two is done through the view model
+
+* I plan on starting with the ui 
+* then maybe the view model then the model, not sure if it will be easier to go with the view model first
+or just the model first
+* 
+
+
