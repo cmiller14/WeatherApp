@@ -53,14 +53,19 @@ search through the app everytime for the weather
 
 ## Design
 
-### UI design
+### UI design or the View
 * all of the different fragments will need to have a recycler view in them for the lists that will need to
 be displayed
 * Main activity will just have a fragment container which will then switch fragments depending on what action 
 the user takes
 * The app will need some buttons for searching and adding different areas to the list of areas that will have
 weather info displayed
-* 
+
+
+* create all the xml files using the wysiwyg in android studio
+* then I need to create the corresponding classes in the view package
+* then I need to link all the different fragments together so that you can go from one fragment to another and
+the other way around
 
 ### backend design
 
@@ -73,6 +78,17 @@ weather info displayed
 * I plan on starting with the ui 
 * then maybe the view model then the model, not sure if it will be easier to go with the view model first
 or just the model first
-* 
+
+
+### Model
+
+* the model will need to store information on what the user has saved as their areas
+* Model will need to save:
+  * the area name
+  * the name or identifier to search the information on the area to display for the user
+  * Would it be best to store the info that is recieved from the api to a database or should I just 
+  keep it in memory? I think that it would probably be better to save it in the database but I think that I
+  have to use it in memory if I want to display it to the screen.
+  * 
 
 
