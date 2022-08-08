@@ -7,6 +7,8 @@
         <entry key="app/src/main/res/layout/display_screen_fragment.xml" value="0.1852355072463768" />
         <entry key="app/src/main/res/layout/saved_areas_fragment.xml" value="0.1852355072463768" />
         <entry key="app/src/main/res/layout/search_fragment.xml" value="0.1852355072463768" />
+        <entry key="app/src/main/res/layout/seven_day_card_fragment.xml" value="0.1852355072463768" />
+        <entry key="app/src/main/res/layout/seven_day_list_item.xml" value="0.335" />
       </map>
     </option>
   </component>
